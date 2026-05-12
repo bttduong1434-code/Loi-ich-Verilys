@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tin Tức Nước Tinh Khiết | Sức Khỏe & Đời Sống</title>
+  <meta name="description" content="Trang tin tức chuyên sâu về nước tinh khiết, sức khỏe, công nghệ lọc nước và xu hướng sử dụng nước sạch trong đời sống hiện đại." />
+  <meta name="keywords" content="nước tinh khiết, nước sạch, sức khỏe, tin tức nước uống, công nghệ lọc nước" />
+  <meta name="author" content="Pure Water News" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f4fbff;
+      color: #1f2937;
+      line-height: 1.8;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0099ff, #00d4ff);
+      padding: 18px 8%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      background: white;
+      border-radius: 50%;
+      padding: 5px;
+    }
+
+    .logo h1 {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      margin-left: 20px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #002b5c;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1502741338009-cac2772e18bc?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+      height: 420px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      color: white;
+      max-width: 850px;
+    }
+
+    .hero-content h2 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero-content p {
+      font-size: 18px;
+    }
+
+    .container {
+      width: 85%;
+      max-width: 1100px;
+      margin: 50px auto;
+    }
+
+    article {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    }
+
+    article h2 {
+      color: #0077cc;
+      margin-bottom: 18px;
+      font-size: 32px;
+    }
+
+    .news-section {
+      margin-bottom: 40px;
+    }
+
+    .news-section h3 {
+      font-size: 28px;
+      color: #0f172a;
+      margin-bottom: 15px;
+    }
+
+    .news-section p {
+      margin-bottom: 18px;
+      text-align: justify;
+      font-size: 17px;
+    }
+
+    .news-image {
+      margin: 40px 0;
+      overflow: hidden;
+      border-radius: 18px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .news-image img {
+      width: 100%;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .news-image img:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      background: #003b66;
+      color: white;
+      padding: 40px 8%;
+      margin-top: 50px;
+    }
+
+    footer h3 {
+      margin-bottom: 15px;
+      font-size: 26px;
+    }
+
+    footer p {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .footer-bottom {
+      margin-top: 25px;
+      border-top: 1px solid rgba(255,255,255,0.2);
+      padding-top: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #cde7ff;
+    }
+
+    @media(max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .hero-content h2 {
+        font-size: 34px;
+      }
+
+      article {
+        padding: 25px;
+      }
+
+      .news-section h3 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo nước tinh khiết">
+      <h1>Pure Water News</h1>
+    </div>
+
+    <nav>
+      <a href="https://bttduong1434-code.github.io/Home/">Trang Chủ</a>
+      <a href="https://bttduong1434-code.github.io/Home/#:~:text=TIN%20T%E1%BB%A8C%20V%E1%BB%80%20N%C6%AF%E1%BB%9AC%20TINH%20KHI%E1%BA%BET%20V%C3%80%20S%E1%BB%A8C%20KH%E1%BB%8EE">Tin Tức</a>
+      <a href="https://www.facebook.com/share/16zf3dsM39/?mibextid=wwXIfr">Liên Hệ</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>Lợi Ích Của Nước Tinh Khiết Verilys</h2>
+      <p>Cập nhật những tin tức mới nhất về nước sạch, sức khỏe và công nghệ lọc nước tiên tiến.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <article id="news">
+      <h2>Tin Tức Nổi Bật Về Nước Tinh Khiết</h2>
+<p>Trong thời đại hiện đại, nước uống đang trở thành yếu tố quyết định sức khỏe và phong cách sống
+
+Giữa nhịp sống ngày càng bận rộn, con người hiện đại bắt đầu quan tâm nhiều hơn đến sức khỏe thể chất và tinh thần. Những lựa chọn tưởng chừng nhỏ bé mỗi ngày như chế độ ăn uống, vận động hay nguồn nước sử dụng cũng đang dần trở thành yếu tố quan trọng quyết định chất lượng cuộc sống.
+
+Nếu trước đây người tiêu dùng chỉ cần một chai nước để giải khát, thì ngày nay họ tìm kiếm nhiều hơn thế: sự tinh khiết, độ an toàn, cảm giác yên tâm và cả hình ảnh thương hiệu mà họ đồng hành mỗi ngày.
+
+ </p> 
+<p>Đó cũng chính là lý do thương hiệu nước tinh khiết Verilys ngày càng được nhiều người lựa chọn như một phần của phong cách sống hiện đại. Không chỉ mang đến nguồn nước sạch chất lượng cao, Verilys còn tạo nên trải nghiệm sống khỏe, tích cực và tinh tế cho người tiêu dùng.</p>
+      <section class="news-section">
+        <h3>1. Nước tinh khiết Verilys giúp cơ thể duy trì trạng thái khỏe mạnh mỗi ngày</h3>
+        <p>Cơ thể con người có đến khoảng 70% là nước. Vì vậy, việc bổ sung đủ nước sạch mỗi ngày đóng vai trò cực kỳ quan trọng trong việc duy trì hoạt động của toàn bộ cơ thể.
+
+Theo các chuyên gia sức khỏe, nước tinh khiết hỗ trợ:</p>
+          
+
+<p>Điều hòa thân nhiệt, hỗ trợ trao đổi chất, thanh lọc cơ thể, duy trì năng lượng, hỗ trợ hoạt động của não bộ và giúp làn da khỏe mạnh hơn. </p>
+        <p>
+          Tuy nhiên, không phải nguồn nước nào cũng mang lại cảm giác an tâm tuyệt đối. Người tiêu dùng hiện đại ngày càng cẩn trọng trong việc lựa chọn sản phẩm liên quan trực tiếp đến sức khỏe, đặc biệt là nước uống sử dụng hằng ngày.
+        </p>
+        <p>
+          Verilys hiểu rõ điều đó và định hướng phát triển như một thương hiệu nước tinh khiết chất lượng cao dành cho cuộc sống hiện đại. Mỗi chai nước Verilys được sản xuất thông qua quy trình xử lý nghiêm ngặt nhằm đảm bảo độ tinh khiết và an toàn trước khi đến tay người dùng.
+        </p>
+      </section>
+
+      <div class="news-image">
+        <img src="1.jpg" alt="Nước tinh khiết và sức khỏe">
+      </div>
+
+      <section class="news-section">
+        <h3>2. Verilys mang đến sự an tâm trong từng chai nước</h3>
+        <p>
+          Verilys tập trung đầu tư vào hệ thống công nghệ lọc hiện đại nhằm loại bỏ các tạp chất, vi khuẩn và thành phần không mong muốn trong nguồn nước đầu vào. Toàn bộ quy trình sản xuất được kiểm soát nghiêm ngặt nhằm đảm bảo độ tinh khiết ổn định trong từng sản phẩm.
+        </p>
+        <p>
+          Đối với nhiều người tiêu dùng hiện đại, việc lựa chọn Verilys không đơn thuần là mua một chai nước uống mà còn là lựa chọn sự yên tâm cho bản thân và gia đình.
+
+Đặc biệt, trong bối cảnh môi trường và chất lượng nguồn nước đang được quan tâm nhiều hơn, các thương hiệu chú trọng đến chất lượng thật sự như Verilys ngày càng được đánh giá cao.
+        </p>
+      </section>
+
+      <section class="news-section">
+        <h3>3. Hỗ trợ phong cách sống năng động và hiện đại</h3>
+        <p>
+          Một trong những yếu tố giúp nước tinh khiết Verilys ngày càng được người tiêu dùng trẻ yêu thích chính là khả năng hòa nhập vào phong cách sống hiện đại. Trong thời đại mà khách hàng không chỉ quan tâm đến chất lượng sản phẩm mà còn chú trọng đến trải nghiệm sử dụng và hình ảnh thương hiệu, Verilys đã nhanh chóng tạo được dấu ấn riêng bằng thiết kế tối giản nhưng vẫn mang cảm giác cao cấp và tinh tế.
+        </p>
+        <p>
+          Không chỉ đơn thuần là sản phẩm giải khát, Verilys đang dần xuất hiện như một biểu tượng của lối sống tích cực và cân bằng trong cuộc sống hiện đại. Hình ảnh chai nước Verilys ngày càng phổ biến tại văn phòng làm việc, không gian coworking, phòng gym, studio yoga, quán café hiện đại hay các hội nghị doanh nghiệp. Sự hiện diện đó cho thấy nước uống ngày nay không còn chỉ phục vụ nhu cầu cơ bản mà đã trở thành một phần trong phong cách sống của người trẻ – những người luôn ưu tiên sức khỏe, sự tiện lợi và trải nghiệm chất lượng trong từng lựa chọn hằng ngày.
+        </p>
+      </section>
+
+      <div class="news-image">
+        <img src="2.jpg" alt="Công nghệ lọc nước hiện đại">
+      </div>
+
+      <section class="news-section">
+        <h3>4. Verilys giúp duy trì năng lượng và sự tập trung trong công việc</h3>
+        <p>
+          Nhiều nghiên cứu cho thấy việc thiếu nước có thể khiến cơ thể mệt mỏi, giảm khả năng tập trung và ảnh hưởng đến hiệu suất làm việc.
+
+Trong môi trường làm việc hiện đại, đặc biệt là với dân văn phòng hoặc những người thường xuyên phải làm việc với cường độ cao, việc bổ sung đủ nước sạch mỗi ngày là điều cực kỳ cần thiết.
+
+Verilys mang đến cảm giác dễ uống, thanh nhẹ và phù hợp để sử dụng thường xuyên trong suốt cả ngày. Đây là yếu tố quan trọng bởi người dùng hiện đại không chỉ cần nước sạch mà còn cần sự thoải mái khi sử dụng liên tục.
+
+Nhiều khách hàng đánh giá rằng Verilys tạo cảm giác nhẹ nhàng, không quá “nặng vị”, giúp họ duy trì thói quen uống đủ nước mỗi ngày dễ dàng hơn.
+
+Đây chính là lợi ích quan trọng nhưng thường bị bỏ quên trong cuộc sống bận rộn hiện nay.
+        </p>
+        
+      </section>
+
+      <div class="news-image">
+        <img src="3.png" alt="Bảo vệ môi trường và nước sạch">
+      </div>
+
+      <section class="news-section">
+        <h3>5. Verilys và xu hướng tiêu dùng hướng đến sức khỏe lâu dài</h3>
+        <p>
+          Một trong những thay đổi rõ rệt của người tiêu dùng hiện đại là xu hướng ưu tiên các sản phẩm mang lại giá trị sức khỏe bền vững thay vì chỉ quan tâm đến giá thành. Ngày nay, nhiều người sẵn sàng đầu tư cho thực phẩm sạch, không gian sống lành mạnh, thói quen tập luyện và các sản phẩm hỗ trợ chăm sóc sức khỏe hằng ngày. Đặc biệt, nguồn nước tinh khiết chất lượng cao cũng trở thành yếu tố được quan tâm nhiều hơn bởi đây là nhu cầu thiết yếu ảnh hưởng trực tiếp đến chất lượng cuộc sống và sức khỏe lâu dài của mỗi người.
+        </p>
+        <p>
+          Xuất hiện đúng vào thời điểm xu hướng sống khỏe ngày càng phát triển mạnh, Verilys nhanh chóng tạo được sự chú ý nhờ hình ảnh hiện đại và định hướng tập trung vào chất lượng thật sự. Thay vì lựa chọn những chiến dịch quảng bá quá phô trương, Verilys ưu tiên xây dựng niềm tin thông qua trải nghiệm thực tế của khách hàng và sự ổn định trong từng sản phẩm. Chính chiến lược phát triển bền vững này đã giúp thương hiệu từng bước hình thành cộng đồng khách hàng trung thành – yếu tố đóng vai trò rất quan trọng trong thị trường tiêu dùng hiện đại ngày nay.
+        </p>
+      </section>
+
+      <div class="news-image">
+        <img src="2.jpg" alt="Công nghệ lọc nước hiện đại">
+      </div>
+
+      <section class="news-section">
+        <h3>6. Giá trị thương hiệu Verilys không chỉ nằm ở sản phẩm mà còn ở trải nghiệm</h3>
+        <p>
+          Một thương hiệu mạnh không chỉ dừng lại ở việc cung cấp sản phẩm mà còn phải tạo ra cảm xúc và giá trị tinh thần cho khách hàng. Verilys hiểu rằng người tiêu dùng hiện đại ngày nay không chỉ tìm kiếm một chai nước sạch để giải khát, mà còn mong muốn cảm giác tích cực, sự an tâm và trải nghiệm chất lượng trong cuộc sống hằng ngày. Chính vì vậy, từ thiết kế bao bì, hình ảnh thương hiệu cho đến thông điệp truyền thông, Verilys đều hướng đến phong cách tinh gọn, hiện đại và cao cấp nhằm tạo nên dấu ấn chuyên nghiệp trong mắt người tiêu dùng.
+        </p>
+        <p>Định hướng đó giúp Verilys dễ dàng tiếp cận nhóm khách hàng trẻ – những người yêu thích sự tối giản nhưng vẫn đề cao chất lượng sống và giá trị bền vững. Không chỉ là thương hiệu nước tinh khiết, Verilys đang từng bước xây dựng hình ảnh như biểu tượng của sự tinh khiết, lối sống khỏe mạnh, cân bằng và hiện đại. Đây cũng là yếu tố giúp thương hiệu ngày càng tạo được sự khác biệt trong thị trường nước uống cạnh tranh hiện nay. </p>
+      </section>
+
+    </article>
+  </div>
+
+  <footer id="contact">
+    <h3>Thông Tin Liên Hệ</h3>
+    <p>Địa chỉ: 123 Đường Nước Sạch, Hà Nội, Việt Nam</p>
+    <p>Hotline: 0988 888 888</p>
+    <p>Email: contact@purewaternews.vn</p>
+    <p>Website: www.purewaternews.vn</p>
+
+    <div class="footer-bottom">
+      © 2026 Pure Water News. All Rights Reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
